@@ -63,6 +63,6 @@ do
         mkdir endpoints/$domain
         for file in $(ls scriptsresponse/$domain)
         do
-                ruby ~/Tools/relative-url-extractor/extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file 
+                ruby ~/relative-url-extractor/extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file 
         done
 done
