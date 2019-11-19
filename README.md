@@ -19,6 +19,10 @@ Personal additions:
 * Creation of folder with domain name
 * All the output is in that folder
 
+Running the script:
+sudo chmod 755 buscarSubdominios.sh #setting file permissions
+$ ./buscarSubdominios.sh example.com
+
 # TODO:
 
 - Add more sub-finders tools
