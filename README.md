@@ -18,6 +18,11 @@ Both outputs files (domains.txt and alive.txt also are in json format)
 
 6) Looping through all the domains stored in alive.txt and sending cURL requests to fetch headers and response body and then storing them inside headers and responsebody directories
 
+7) Collect all the JavaScript files from the response body text which we collected in the previous step
+
+8) Using a tool called relative-url-extractor by Jobert Abma (https://github.com/jobertabma/relative-url-extractor) for  collect all the relative paths which are present in the JavaScript files.
+
+
 Personal additions:
 * Creation of folder with domain name
 * All the output is in that folder
