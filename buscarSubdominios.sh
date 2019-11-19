@@ -66,3 +66,9 @@ do
                 ruby ~/relative-url-extractor/extract.rb scriptsresponse/$domain/$file >> endpoints/$domain/$file 
         done
 done
+#Nmap
+mkdir nmapscans
+for domain in $(cat domains.txt)
+do
+        nmap -sC -sV $domain | tee nmapscans/$domain
+done
