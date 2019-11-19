@@ -22,6 +22,7 @@ Both outputs files (domains.txt and alive.txt also are in json format)
 
 8) Using a tool called relative-url-extractor by Jobert Abma (https://github.com/jobertabma/relative-url-extractor) for  collect all the relative paths which are present in the JavaScript files.
 
+9)At this point, the script will pass all the domains present in domains.txt to nmap and will store the result inside the nmapscans
 
 Personal additions:
 * Creation of folder with domain name
