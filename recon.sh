@@ -9,7 +9,7 @@ domain_enum(){
 mkdir -p $domain $domain/sources $domain/Recon
 
 subfinder -d $domain -o $domain/sources/subfinder.txt
-assetfinder -subs-only $domain | tee $domain/sources/hackerone.com
+assetfinder -subs-only $domain | tee $domain/sources/assetfinder.com
 amass enum -passive -d $domain -o $domain/sources/passive.txt	
 shuffledns -d $domain -w $wordlist -r $resolvers -o $domain/sources/shuffledns.txt
 
